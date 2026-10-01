@@ -1,0 +1,523 @@
+ <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto TTC - Tecnologia, Trabalho e Cuidado</title>
+    
+    <!-- CSS Local -->
+    <link rel="stylesheet" href="estilo.css">
+    
+    <!-- Ícones Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- Fonte Google Fonts (Amatic SC) como fallback/carregamento remoto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="pag.js" defer></script>
+</head>
+
+<body>
+
+    <!-- cabecalho -->
+    <header>
+        <nav class="navbar">
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <a href="#" class="logo">
+                <img src="icon.jpg" alt="Logótipo TTC">
+            </a>
+            
+            <ul class="menu" id="navMenu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#atuacoes">ATUAÇÕES</a></li>
+                <li><a href="#publicacoes">PUBLICAÇÕES</a></li>
+                <li><a href="#equipe">EQUIPE</a></li>
+                <li><a href="#parceiros">PARCEIROS</a></li>
+                <li><a href="#contatos">CONTATOS</a></li>
+            </ul>
+
+            <form class="busca-conteiner"  id="form-busca"role="search" action="#" method="get">
+                <input type="text" id="campo-busca" placeholder="Pesquisar..." class="busca-input">
+                <button type="submit" class="busca-btn"></button>
+            </form>
+        </nav>
+    </header>
+
+    <!-- capa principal -->
+    <section id="inicio" class="inicio">
+        <div class="foto">
+            <img src="capa.jpg">
+        </div>
+        <h1 id="titulo" class="titulo">Tecnologia, trabalho e cuidado</h1>
+    </section>
+
+    <!-- SOBRE O PROJETO -->
+    <section id="sobre" class="sobre">
+        <h2>Sobre o projeto</h2>
+        <p>
+            Tecnologia, Trabalho e Cuidado é um projeto de extensão, pesquisa e ensino, 
+            que busca borrar as fronteiras entre essas três dimensões da atividade acadêmica, integrando teoria e prática, na intenção de enriquecer os debates no campo da tecnologia e do trabalho através de 
+            olhares interseccionais e contracoloniais, deslocando o cuidado e a sustentação da vida para o centro.
+            O projeto teve início em 2020, a partir de duas pesquisas de mestrado que estavam 
+            em andamento no PPGTDS/NIDES. As pesquisas de Aman Azevedo e Beatriz Condini, de diferentes formas, 
+            questionam a ideia de separação entre produção e reprodução da vida e trazem importantes reflexões sobre as relações de poder que cercam a ciência e a tecnologia.
+             A partir delas, afirmamos o desejo-necessidade de considerar as interseções entre classe, raça, gênero e sexualidade e expandir o olhar sobre o trabalho abarcando um conjunto amplo de atividades que garantem a sustentação da vida, a fim de identificar rotas de envolvimento 
+             tecnológico de resistência e emancipatórias.
+        </p>
+        <p>
+            Nossa proposta é investigar os atravessamentos entre os conceitos de tecnologia, trabalho e cuidado, 
+            a partir do diálogo e da atuação com coletivos de mulheres negras que protagonizam uma série de iniciativas que 
+            garantem a sustentação da vida em territórios periféricos no Rio de Janeiro.
+    
+             Nos últimos anos vimos dialogando especialmente com um grupo de mulheres da comunidade Terra Prometida, parte da 
+             Serra da Misericórdia, um território de favela na Zona Norte da cidade. Acompanhando e apoiando as ações que elas realizam cotidianamente, 
+             refletimos sobre as perspectivas críticas no campo do trabalho e da tecnologia.
+
+             Influenciadas pela educação popular e por abordagens feministas plurais, trilhamos um percurso metodológico 
+             intencionado para o diálogo amplo e sensível com as protagonistas dessas histórias, tensionando as relações de poder que cercam o campo da ciência e da tecnologia.
+        </p>
+       
+    </section>
+
+    <!-- ATUAÇÕES -->
+    <section id="atuacoes" class="atuacoes">
+        <h2>Eixos de atuações</h2>
+        <p>
+            Apesar de buscarmos a todo momento borrar as fronteiras entre extensão, pesquisa e ensino, habitamos esse 
+            território marcado pela fragmentação, e não conseguimos escapar de organizar nossas ações dentro desses eixos que estruturam a instituição acadêmica.
+        </p>
+
+        <!-- Eixo Ensino -->
+        <div class="eixo-bloco">
+            <h3>Ensino</h3>
+
+            <p>Quando criamos o projeto TTC, sentimos o desejo-necessidade de abrir espaços de estudo que servissem de base para nossas ações. Assim surgiram disciplinas anuais ofertadas pelo NIDES:</p>
+
+            <div class="bloco-midia-texto">
+                    <img src="ensino.png" class="foto-extensao">
+                    <div class="texto-midia">
+                        <ul>
+                            <li><strong>Tecnologia, Trabalho, Saúde e Cuidado (NID106 - Graduação):</strong> A partir de abordagens  feministas e contracoloniais, revisamos os conceitos de saúde e cuidado e os colocamos em diálogo com as perspectivas críticas 
+                            nos estudos de trabalho e tecnologia. Na disciplina intercalamos momentos de leitura e debate de textos de referência sobre os temas, com rodas de conversa e visitas a organizações e grupos sociais que acumulam experiências de luta e resistência. 
+                            <a href="https://brajets.com/brajets/article/view/2212" target="_blank" rel="noopener noreferrer">Leia o artigo publicado sobre a experiência.</a></li><br>
+
+                            <li><strong>Trabalho, Tecnologia e Cuidado (NID727 - Pós-graduação):</strong> partindo do pressuposto da indissociabilidade entre produção e reprodução da vida, refletimos sobre como o sistema capitalista, 
+                            patriarcal e racista historicamente delega e invisibiliza a imensa quantidade de trabalho realizada pelas pessoas que ocupam as margens desse sistema. O debate alcança ainda uma reflexão sobre a estrutura sociotécnica que organiza essa divisão sexual e racial do trabalho, abrindo caminhos para imaginar alternativas que permitam uma distribuição mais justa e equânime dos cuidados na sociedade.</li>
+                        </ul>
+                    </div>
+
+            </div>
+            <ul>
+                <li><strong>Gênero nas cosmopercepções africanas e indígenas (NID110):</strong> problematizamos a universalização do gênero como uma categoria de análise ocidentocêntrica, a partir de contribuições de autories que, transversalizades por outras fontes de conhecimento endógeno de diferentes matrizes culturais, argumentam sobre os limites da categoria gênero para os estudos de práticas que partem de lógicas não binárias e não bio-lógicas.
+                    problematizamos a universalização do gênero como uma categoria de análise ocidentocêntrica, a partir de contribuições de autories que, transversalizades por outras fontes de conhecimento endógeno de diferentes matrizes culturais, argumentam sobre os limites da categoria gênero para os estudos de práticas que partem de lógicas não binárias e não bio-lógicas.</li><br>
+
+                <li><strong>Tecnologias Africanas, Indígenas e Diaspóricas (NID109):</strong> aborda as tecnologias e as culturas africanas, indígenas e diaspóricas numa visão contra colonialista e contra o racismo, inspirando os estudantes a conhecer e incluir em suas bases téorico-filosóficas abordagens das culturas negras e indígenas. 
+                    Esta disciplina está em consonância com a Lei 10639 de 2003 e com a Lei 11645 de 2008, que versam sobre o ensino da história e da cultura africana, diaspórica e indígena.</li>
+            </ul>
+            <P>Importante destacar que nessas disciplinas, nossos espaços privilegiados de estudo, sempre buscamos oportunidades de contato com o conjunto de pesquisas e ações extensionistas realizadas pelo projeto. 
+                Os aprendizados da pesquisa e da extensão são levados para as salas de aula, e as reflexões em aulas alimentam reciprocamente a pesquisa e a extensão.</P>
+        </div>
+
+        <!-- Eixo Pesquisa -->
+        <div class="eixo-bloco">
+            <br>
+            <h3>Pesquisa</h3>
+            <p>As pesquisas de Aman Azevedo e Beatriz Condini, realizadas como parte de seus projetos de mestrado no Programa de Pós-Graduação em Tecnologia para o 
+                Desenvolvimento Social (PPGTDS/NIDES), foram precursoras deste projeto. Foi a partir delas que começamos a pensar sobre as relações entre Tecnologia, 
+                Trabalho e Cuidado. De lá para cá, outras pesquisadoras ingressaram no PPGTDS com temas e abordagens de pesquisa alinhados com as perspectivas do projeto. 
+                As interações entre essas diferentes pesquisas, os aprendizados que circulam de uma para a outra, alimentam nossa ação extensionista e nossos processos formativos.
+            </p>
+
+            <div class="bloco-midia-texto">
+                    <img src="pesquisa.jpeg" class="foto-extensao">
+                    <div class="texto-midia">
+                        <h4><i>Título:</i> TECNOLOGIA PARA ALÉM DO QUE SE VÊ: Construindo um novo paradigma tecnológico a partir da Serra da Misericórdia (RJ)</h4>
+                                <p><strong><i>Autor:</i></strong> Aman Azevedo Nunes | <strong><i>Situação:</i></strong> <i>Concluída</i> <a href="https://nides.ufrj.br/images/PPGTDS/Dissertacoes/2024_AmanAzevedo.pdf" target="_blank" rel="noopener noreferrer">PDF</a><br>
+                                <i>Resumo:</i>A pesquisa de Aman investiga tecnologias coletivas desenvolvidas por um grupo de mulheres negras na região da Terra Prometida (Serra da Misericórdia, RJ), iniciativas que se fortaleceram durante a pandemia de Covid-19. 
+                                    O autor questiona o paradigma tecnológico atual por excluir atividades de "sustentação da vida" (trabalho reprodutivo) e analisa os impactos de processos de "destecnologização" em populações marginalizadas. Influenciado por sua proximidade com o local, 
+                                    e utilizando de metodologias como diários de campo e registros audiovisuais, o trabalho propõe um novo paradigma tecnológico baseado no cuidado e nas vivências cultivadas no Centro de Integração da Serra da Misericórdia (CEM).</p>
+                        
+                    </div>
+
+                </div>
+
+            <article class="card-pesquisa">
+                <h4><i>Título:</i> TECNOLOGIA PARA ALÉM DO QUE SE VÊ: Construindo um novo paradigma tecnológico a partir da Serra da Misericórdia (RJ)</h4>
+                <p><strong><i>Autor:</i></strong> Aman Azevedo Nunes | <strong><i>Situação:</i></strong> <i>Concluída</i> <a href="https://nides.ufrj.br/images/PPGTDS/Dissertacoes/2024_AmanAzevedo.pdf" target="_blank" rel="noopener noreferrer">PDF</a><br>
+                <i>Resumo:</i>A pesquisa de Aman investiga tecnologias coletivas desenvolvidas por um grupo de mulheres negras na região da Terra Prometida (Serra da Misericórdia, RJ), iniciativas que se fortaleceram durante a pandemia de Covid-19. 
+                    O autor questiona o paradigma tecnológico atual por excluir atividades de "sustentação da vida" (trabalho reprodutivo) e analisa os impactos de processos de "destecnologização" em populações marginalizadas. Influenciado por sua proximidade com o local, 
+                    e utilizando de metodologias como diários de campo e registros audiovisuais, o trabalho propõe um novo paradigma tecnológico baseado no cuidado e nas vivências cultivadas no Centro de Integração da Serra da Misericórdia (CEM).</p>
+            </article>
+
+            <article class="card-pesquisa">
+                <h4><i>Título:</i>A Experiência da Cozinha Popular Transvestigênere: “Kuzinhanem”</h4>
+                <p><strong><i>Autora:</i></strong> Beatriz Campana Condini | <strong><i>Situação:</i></strong> <i>Concluída</i> <a href="https://nides.ufrj.br/images/PPGTDS/Dissertacoes/Ano_2024_-_24_-_Dissertacao_-_Beatriz_Condini_compressed.pdf" target="_blank" rel="noopener noreferrer"> PDF</a><br>
+                    <i>Resumo:</i>Esta pesquisa possui como objeto analítico a experiência de uma cozinha popular, a KuzihaNem, localizada na Lapa, Rio de Janeiro, gerida coletivamente pelo Grupo TransRevolução. O estudo pretende investigar quais são os valores econômicos 
+                    envolvidos no trabalho produtivo e no trabalho reprodutivo que podem ser significativos no movimento de construção de uma sociedade anticapitalista, que se contraponha às desigualdades. A pesquisa está centrada em dois princípios teóricos: 
+                    1) a economia associada ao social (economia popular e solidária) e 2) o trabalho produtivo associado ao reprodutivo. Nesse sentido foi feita uma sistematização da experiência por meio de encontros semanais com todos os participantes da cozinha e do envolvimento cotidiano da pesquisadora na gestão das atividades do grupo.</p>
+            </article>
+
+            <article class="card-pesquisa">
+                <h4><i>Título:</i> A Lavanderia Comunitária do Morro Do Borel e o debate sobre racismo ambiental</h4>
+                <p><strong><i>Autora:</i></strong> Ester Oliveira Bayerl | <strong><i>Situação:</i></strong> <i>Concluída</i> <a href="https://nides.ufrj.br/images/PPGTDS/Dissertacoes/Ano_2025_-_04_-_Dissertacao_Ester_Bayerl.pdf" target="_blank" rel="noopener noreferrer"> PDF</a><br>
+                <i>Resumo:</i>A pesquisa de Ester explicita a consolidação da favela como lugar de soluções coletivas e campo estratégico para a garantia de direitos vitais a seus moradores. Usando como modelo a experiência da Lavanderia Comunitária do Borel, 
+                a qual atende mulheres chefes de família da subcomunidade da Indiana, buscando suprir a lacuna aberta pela negligência do poder público que vem desde o século XX e se sustenta em narrativas segregadoras. Deste modo, o trabalho realiza uma reforma histórica da narrativa e enfatiza o papel das 
+                moradoras como agentes ativas da mudança em seu território.</p>
+            </article>
+
+            <article class="card-pesquisa">
+                <h4><i>Título:</i> A Mulher Fabricada: estudo de caso sobre a operação de perfis fictícios</h4>
+                <p><strong><i>Autora:</i></strong> Gabriela Moreira Ribeiro | <strong><i>Situação:</i></strong> <i>Concluída</i><a href="https://drive.google.com/file/d/1n5viv-G3LuQVcFBk_pQT7oh063V6vDzU/view" target="_blank" rel="noopener noreferrer"> PDF</a> <br>
+                A pesquisa de Gabriela Ribeiro tem como objetivo analisar a organização e as condições do trabalho sexual plataformizado, 
+                especificamente a partir da experiência de trabalhadoras e trabalhadores que operam perfis fictícios de mulheres em plataformas de relacionamento adulto. O trabalho ainda reflete sobre o imaginário acerca da figura feminina como uma forma de sustento para as relações ocultas geridas nas plataformas e como a mercadoria do ser invisibiliza e suscetibiliza tais trabalhadores ao adoecimento.</p>
+            </article>
+
+            <article class="card-pesquisa">
+                <h4><i>Título:</i> Uma Narrativa Histórica da Ancestralidade Quilombola: Um Encontro com o Quilombo do Feital</h4>
+                <p><strong>Autora:</strong> Bruna Barros de Barcelos | <strong><i>Situação:</i></strong><i>Concluída</i> <a href="https://drive.google.com/file/d/1hkgn6oubEh7gqRURRYhXnqCcr7C1J3LP/view" target="_blank" rel="noopener noreferrer"> PDF</a><br>
+                <i>Resumo:</i> A pesquisa de Bruna investiga a ancestralidade quilombola a partir do Quilombo do Feital, em Magé (RJ), articulando história, memória, oralidade e educação antirracista. A autora analisa o protagonismo de africanos e afrodescendentes na 
+                produção de tecnologias tradicionais e conhecimentos sociais, denunciando o apagamento dessas contribuições pelo racismo estrutural. Com base em entrevistas, vivências e referenciais de Abdias do Nascimento, Beatriz Nascimento e Clóvis Moura, defende a valorização das tecnologias 
+                quilombolas e a reparação histórica por meio de uma educação afrorreferenciada. </p>
+            </article>
+
+            <article class="card-pesquisa">
+                <h4><i>Título:</i> REMANDO CONTRA A MARÉ: o protagonismo das mulheres da pesca da Baía de Guanabara</h4>
+                <p><strong><i>Autora:</i></strong> Aline Duarte Mattos | <strong><i>Situação:</i></strong> <i>Em andamento</i><br>
+                Esta pesquisa tem como objetivo descrever e analisar o trabalho das mulheres da pesca artesanal na Baía de Guanabara, apresentando a sua contribuição para manutenção e (re)existência da atividade pesqueira. 
+                Perpassam a denúncia da invisibilidade histórica para anunciar o protagonismo destas trabalhadoras, visando oportunizar uma 
+                reflexão sobre os múltiplos trabalhos das pescadoras. Para isso, propõe a identificação de potencialidades nas iniciativas de mulheres da pesca artesanal em posição de liderança em suas comunidades.</p>
+            </article>
+
+            <p><strong>Outras pesquisas em andamento:</strong>  <br> <i>Renata Bateira:</i> sobre as ouvidorias da mulher em universidades federais; <br>
+                <i>Suelen Pereira:</i> sobre a política nacional de cuidados, em especial no que se refere a atenção às pessoas que exercem trabalhos de cuidado em âmbito familiar de forma não remunerada;<br>
+                <i>Alice Meditsch:</i> sobre mulheres artesãs.
+            </p>
+        </div>
+
+        <!-- Eixo Extensão -->
+        <div class="eixo-bloco">
+            <h3>Extensão</h3><br>
+            <article class="card-extensao">
+                <div class="bloco-midia-texto">
+                    <img src="extensao.jpg" class="foto-extensao">
+                    <div class="texto-midia">
+                        <p>As ações de extensão do projeto TTC tem se consolidado na parceria com o Centro de Integração da Serra da Misericórdia (CEM), 
+                            uma ONG de base comunitária, que atua na comunidade Terra Prometida, parte da Serra da Misericórdia, um território de favela na Zona Norte da cidade.</p>
+                        <p>A agroecologia na favela, associada às lutas antirracistas e feministas, é o principal tema de atuação do CEM. Organizando suas ações nos eixos temáticos 
+                            de educação, soberania alimentar, saúde, cidadania, comunicação e geração de trabalho e renda, elas afirmam que estão lutando pelo direito à cidade produtiva, 
+                            saudável e sustentável, promovendo a segurança alimentar e nutricional da população, buscando contribuir ainda com a luta pela justiça climática.</p>
+                        <p>Ao longo desses anos, precisamos em diversos momentos repensar e reelaborar nossas formas de atuação no território, sempre em diálogo com o CEM e com os moradores da Terra Prometida, 
+                            reconhecendo e respeitando o protagonismo da população nas ações locais.</p>
+                    </div>
+
+                </div>
+
+                
+                <p>No início, entre 2020 e 2022, estávamos mais próximas da Cozinha Solidária Mulheres em Ação, tentando contribuir com a estruturação do processo produtivo, com a viabilidade econômica da iniciativa, 
+                    com a organização do espaço e das tecnologias na produção dos alimentos. Facilitamos uma aproximação entre a Cozinha e CAPINA - uma ONG que trabalha com o tema da viabilidade econômica na economia popular, e essa aproximação gerou bons frutos.</p>
+                <p>Depois passamos um tempo, entre 2023 e 2024, acompanhando as Rodas de Mulheres, organizadas pelo CEM em parceria com uma Clínica da Família da região. Foi uma forma gostosa e importante de conhecer outras mulheres do 
+                    território, para além daquelas que já conhecíamos da Cozinha. Ali ouvimos relatos sobre o cotidiano de vida daquelas pessoas, e sobre estratégias desenvolvidas e mobilizadas por elas para a promoção da saúde e do cuidado. 
+                    Ajudamos a sistematizar algumas atividades realizadas, iniciando a elaboração de um guia das ervas medicinais cultivadas e utilizadas por elas a partir de seus saberes ancestrais. Esse guia não chegou a uma forma final, não foi publicado, mas está guardado 
+                    em nossos arquivos e foi compartilhado com elas. Paramos de participar das Rodas em um determinado momento, pois outros grupos que trabalhavam mais diretamente com o tema da saúde se aproximaram e seguiram acompanhando essa atividade.
+                    Ainda em 2023, nos dedicamos a apoiar o CEM em um processo de mapeamento de ações realizadas no território com a perspectiva de incentivar e fortalecer o diálogo entre os diversos grupos e instituições que vinham atuando na Terra Prometida. Fizemos um seminário com os parceiros, 
+                    e juntas elaboramos um mapa das ações que facilita a apresentação do CEM para quem quer conhecer seu trabalho.</p>
+
+                <img src="extensao2.jpg" class="foto-extensao2"><br>
+                <p>A partir dessa atividade, seguimos trabalhando na intenção de colaborar com a elaboração de um catálogo de ações do CEM, que avançou bastante, mas que ainda não chegou a uma forma final. 
+                        Esse processo de construção do catálogo envolveu também um grupo de crianças da Escola Popular de Agroecologia, e foi uma forma dessas crianças entenderem um pouco mais sobre o contexto em que estão inseridas.</p>
+
+                <div class="bloco-midia-texto">
+                    <img src="extensao3.jpg" class="foto-extensao">
+            
+                    <div class="texto-midia">
+                        <p>Assim se iniciou nossa aproximação com a Escola, e dali surgiram outras ações na sequência. A partir de 2024, começamos a atuar no apoio às aulas de reforço à alfabetização e ali fomos nos ambientando e acolhendo outras demandas. Um grupo de meninas na 
+                        pré-adolescência queria saber mais sobre gênero e sexualidade. Sempre em parceria com o CEM e com a comunidade, elaboramos e ministramos um curso que teve o título de “Corpo, gênero e sexualidade”. Foram no total oito encontros, com muitos desafios, muito afeto e muita aprendizagem. 
+                        Contamos com participações importantes de pessoas convidadas e concluímos com a entrega de um certificado de curso de extensão da UFRJ, que deixou as meninas emocionadas e esperançosas.</p>
+                        <p><strong>Nossas ações de hoje na Terra Prometida</strong> Nessa parceria com o CEM, hoje o projeto desenvolve ações organizadas em três eixos: (1) Escola Popular de Agroecologia; (2) Apoio psicossocial e psicopedagógico às crianças e famílias da Escola; (3) Organização comunitária.</p>
+                    </div>
+                </div>
+
+            </article>
+            
+            <ul>
+                <li><strong>Escola Popular de Agroecologia:</strong> hoje temos duas equipes de extensionistas atuando com a Escola. Uma equipe atua no reforço à alfabetização e ensino de língua portuguesa, voltado para crianças de 6 a 9 anos. A segunda equipe está oferecendo mais uma vez o curso de Corpo, Gênero e Sexualidade, que tem como público adolescentes e pré-adolescentes da Terra Prometida. </li>
+                <li><strong>Apoio Psicossocial e Psicopedagógico:</strong> essa atividade está em uma fase muito inicial, ainda sendo estruturada com protagonismo das mulheres do CEM e da Frente Penha. Fundamentada em uma perspectiva antirracista, comunitária e sensível às especificidades do território, a ideia é promover espaços de escuta, acolhimento e fortalecimento de vínculos. </li>
+                <li><strong>Organização Comunitária:</strong> nesse eixo de atuação as extensionistas do projeto tem apoiado o CEM e outras instituições parceiras em processos de diagnóstico e planejamento territorial com o propósito de fortalecer a organização comunitária e a participação cidadã na construção coletiva de soluções para demandas relacionadas à infraestrutura urbana, questões socioambientais e acesso a direitos. </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- PUBLICAÇÕES -->
+    <section id="publicacoes" class="publicacoes">
+        <h2>Publicações</h2>
+        
+        <h3>Artigos em revistas acadêmicas</h3>
+        <p>ARAUJO, Fernanda S. (et al). <strong>Em busca de uma educação feminista e contracolonial:
+            relatos da disciplina Tecnologia, Trabalho, Saúde e Cuidado.</strong>  <em>Cadernos de Educação Tecnologia e Sociedade</em>, v. 19, n. 1, p. 94-111, 2026.  
+            Dispónivel em: <a href="https://brajets.com/brajets/article/view/2212" target="_blank" rel="noopener noreferrer">PDF</a>
+        </p>
+
+        <h3>Capítulos de livro</h3>
+        <p>ARAUJO, Fernanda S. <strong>Danieli Christovão Balbi - Dani Balbi.</strong> <em> In: MARINHO, Thais A.; LEITE, Maria E. T. B.; ANDRADE, Ana C. B. (Org.).</em>Um Rio de resistências: dicionário biográfico Rio de Janeiro.
+             Rio de Janeiro: Ed. Aruanda, 2026.</p>
+
+        <p>ARAUJO, Fernanda S.; BARCELOS, Bruna B.; RIBEIRO, A. D. M. L.<strong> Valdirene Couto Raimundo - Val Quilombola.</strong> <em> In: MARINHO, Thais A.; LEITE, Maria E. T. B.; ANDRADE, Ana C. B. (Org.).</em>Um Rio de resistências: dicionário biográfico Rio de Janeiro.
+             Rio de Janeiro: Ed. Aruanda, 2026.</p>
+
+        <p>RIBEIRO, Aline D. M. L.; ARAUJO, Fernanda S. <strong>Contribuições das Metodologias Participativas como instrumento de valorização e visibilidade do trabalho das mulheres na pesca artesanal na Baía de Guanabara.</strong> In: 
+            <em> In: ADDOR, Felipe (et. al.) (org.). Tecnologia e território na América Latina: territorialidades, comunidades tradicionais e o mundo digital.</em>. São Paulo: FFLCH/USP: PROLAM/USP, 2025. 
+            Disponível em: <a href="https://www.livrosabertos.abcd.usp.br/portaldelivrosUSP/catalog/view/1723/1572/6309" target="_blank" rel="noopener noreferrer">PDF</a> 
+        </p>
+
+        <h3>Anais de eventos</h3>
+        <p>CRUZ, I. P;  MOREIRA, M. V. S; SANTOS, A. L. L; COSTA, L. G. F; NASCIMENTO,  R. B. D; ALMEIDA, V. S; PACIELLO, C. G. A. N;  SILVA,  A. S. V; PINTO. S. M. C; TROVÃO, R. C. S; ARAÚJO, F. S. 
+            <strong>Corpo, Gênero e Sexualidade: uma vivência discente.</strong> XX Encontro Nacional De Engenharia E Desenvolvimento Social Construindo uma Engenharia Decolonial para a Soberania Digital e Popular- ENEDS. Campinas-SP. 
+            Anais XX do ENEDS. Campinas-SP UNICAMP, 2025. Disponível em: <a href="https://anais.eneds.org.br/index.php/eneds/article/view/994/747" > Corpo, Gênero e Sexualidade: uma vivência discente.</a> </p>
+            
+        <p>SANTOS, A. L. L. et al. <strong> TECNOLOGIA, TRABALHO E CUIDADO: uma experiência de ensino feminista e contracolonial.</strong> XIX Encontro Nacional De Engenharia E Desenvolvimento Social Futuros reinventados: Construindo o amanhã com a linha da ancestralidade- ENEDS. 
+            Salvador-BA. Anais XIX do ENEDS. Salvador-BA UFBA, 2024. Disponível em: <a href="https://anais.eneds.org.br/index.php/eneds/article/view/873/699"> TECNOLOGIA, TRABALHO E CUIDADO: uma experiência de ensino feminista e contracolonial.</a>
+
+        </p>
+
+        <p>AZEVEDO, A;  SANTOS, A.  L; MARINHO, E; SANTOS, F; GOMES, L; SCORALICK, L;  DAMASCENO, R. L. <strong> TECNOLOGIA, TRABALHO E CUIDADO: um percurso inicial na pesquisa e na extensão.</strong>  XVIII Encontro Nacional De Engenharia E Desenvolvimento Social Crise e Transição: Engenheirando Alternativas - ENEDS. 
+            Belo Horizonte-MG. Anais XVIII do ENEDS. Belo Horizonte-MG UFMG, 2023. Disponível em: <a href="https://anais.eneds.org.br/index.php/eneds/article/view/768/646"> TECNOLOGIA, TRABALHO E CUIDADO: um percurso inicial na pesquisa e na extensão.</a>
+
+        </p>
+        <h3>Apresentações e outros eventos acadêmicos</h3>
+        <p>NASCIMENTO,  R. B. D; SANTOS, A. L. L; CRUZ, G. H. G; ARAÚJO, F. S.<strong>TECNOLOGIA, TRABALHO E CUIDADO.</strong>  14° SEMANA DE INTEGRAÇÃO ACADÊMICA DA UFRJ- SIAC. Rio de Janeiro-RJ. UFRJ, 2025.</p>
+        <p>NASCIMENTO. R. B; SANTOS. A. L. L; COSTA,  L. G. F.<strong>Corpo, Gênero e Sexualidade: uma experiência discente.</strong>  I Seminário Internacional Gênero em Disputa. São Bernardo do Campo-SP. UFABC. p 131-155, 2025.</p>
+        <p>PEREIRA, Suellen<strong>.O FUTURO DEPENDE DO CUIDADO: FORMAS INOVADORAS DE PENSAR POLÍTICAS PÚBLICAS PARA CONSTRUIR UMA SOCIEDADE DO CUIDADO.</strong>  I Seminário Internacional Gênero em Disputa. São Bernardo do Campo-SP. UFABC. p 407-410, 2025. Disponível em: <a href="https://drive.google.com/file/d/1USRCWtHJrgkcT17yRY84k4ulnHsI-YGJ/view">Anais I Seminário Internacional Gênero em Disputa.pdf</a> </p>
+        <p>VICENTE, Mylene; KLEYMAN, Mauro<strong>Saneamento básico em áreas precárias do Rio de Janeiro: o caso da Serra da Misericórdia.</strong> 30 anos semana IPPUR 2025. Rio de Janeiro-RJ, 2025.</p>
+        <p>ARAÚJO, Fernanda Santos<strong>Trabalho, Tecnologia e Cuidado: um percurso inicial de pesquisa-extensão.</strong> Fazendo Gênero 2024. Florianópolis-SC, 2024.</p>
+        <p>COSTA, L.G.F; SANTOS, A.L.L; NASCIMENTO, R.B.D; ARAUJO, F.S<strong>TECNOLOGIA, TRABALHO E CUIDADO: POR UMA PERSPECTIVA DA PSICOLOGIA SOCIAL.</strong> 13° SEMANA DE INTEGRAÇÃO ACADÊMICA DA UFRJ- SIAC. Rio de Janeiro-RJ. UFRJ, 2024. </p>
+        <p>PAULA, M.E.N; CRUZ, G.H.G; DAMASCENO, R.L.S; ARAUJO, F.S.<strong>REFLEXÕES SOBRE TECNOLOGIA, TRABALHO E CUIDADO: UM DIÁLOGO INTERDISCIPLINAR.</strong> 13° SEMANA DE INTEGRAÇÃO ACADÊMICA DA UFRJ- SIAC. Rio de Janeiro-RJ. UFRJ, 2024.</p>
+        <p>SANTOS, A.L. L; MARINHO, E.P.V; COSTA, L.G.F; SANTOS, F.A. <strong>TECNOLOGIA, TRABALHO E CUIDADO: para além de uma extensão.</strong> XLV Jornada Giulio Massarani de Iniciação Científica, Tecnológica, Artística e Cultural-JICTAC. Macaé-RJ. UFRJ, 2024.</p>
+        <p>AZEVEDO,  A;  SANTOS, A L. L; MARINHO, E; SANTOS, F; SCORALICK, L;  DAMASCENO, R. L.<strong>TECNOLOGIA, TRABALHO E CUIDADO(TCC).</strong> IX Encontro Regional de Engenharia E Desenvolvimento Social Construindo Tecnologias Antirracistas: Aldear e aquilombar as engenharias! - EREDS SUDESTE. Campinas-SP. Anais XX do EREDS. Campinas-SP. UNICAMP, 2023. Disponível em: <a href="https://eneds.org.br/wp-content/uploads/2023/06/TTC-Relato-de-Experiencia_230529_184350.pdf">TECNOLOGIA, TRABALHO E CUIDADO(TTC)</a></p>
+
+
+
+
+
+    </section>
+
+    <!-- EQUIPE -->
+    <section id="equipe" class="equipe">
+        <h2>Equipe</h2>
+        
+        <h3>Membros atuais</h3>
+
+        <div class="equipe-grid">
+            <div class="membro">
+                <img src="download.jpg" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Alice Meditsch</h3>
+                    <p class="cargo">Pós-graduanda no PPGTDS/NIDES<br> Desde 03/2026</p>
+                    <a href="">Lattes</a>
+                </div>
+            </div>
+
+            <div class="membro">
+                <img src="download.jpg" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Aline Lessa</h3>
+                    <p class="cargo">Pós-graduanda no PPGTDS/NIDES<br>Desde 03/2024</p>
+                    <a href="">Lattes</a>
+                </div>
+            </div>
+
+            <div class="membro">
+                <img src="aman.gif" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Aman Azevedo</h3>
+                    <p class="cargo">Pós-graduando no PCH/UFABC<br> Desde 01/2020</p>
+                    <a href="http://lattes.cnpq.br/4955217623063940">Lattes</a>
+                </div>
+            </div>
+
+            <div class="membro">
+                <img src="AnaP.jpg" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Ana Passos</h3>
+                    <p class="cargo">Graduanda em Engenharia Eletrônica (UFRJ)<br> Desde 03/2026</p>
+                    <a href="http://lattes.cnpq.br/5334671259836901">Lattes</a>
+                </div>
+            </div>
+
+            <div class="membro">
+                <img src="AnaC.jpeg" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Ana Clara Magalhães</h3>
+                    <p class="cargo">Graduanda em Ciências Biológicas- Biofísica (UFRJ)<br> Desde 03/2026</p>
+                    <a href="http://lattes.cnpq.br/5761429551931240">Lattes</a>
+                </div>
+            </div>
+
+            <div class="membro">
+                <img src="lily.jpeg" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Ana Lilyan Santos</h3>
+                    <p class="cargo">Graduanda em Psicologia (UFRJ)<br> Desde 11/2022</p>
+                    <a href="http://lattes.cnpq.br/0846016740289128">Lattes</a>
+                </div>
+            </div>
+
+            <div class="membro">
+                <img src="download.jpg" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Arthur Sant’Anna Vianna da Silva</h3>
+                    <p class="cargo">Graduanda em Letras (UFRJ)<br> Desde 13/2025</p>
+                    <a href="">Lattes</a>
+                </div>
+            </div>
+
+            <div class="membro">
+                <img src="fer.gif" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Fernanda Santos Araújo</h3>
+                    <p class="cargo">Professora do NIDES<br> Desde 01/2020</p>
+                    <a href="http://lattes.cnpq.br/1729587612794152 ">Lattes</a>
+                </div>
+            </div>
+
+            <div class="membro">
+                <img src="Isab.gif" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Isabele Pinheiros Cruz</h3>
+                    <p class="cargo">Graduada em Ciências Modalidade Médica(UFRJ)<br> Desde 03/2025</p>
+                    <a href="http://lattes.cnpq.br/2884824813543336 ">Lattes</a>
+                </div>
+            </div>
+
+            <div class="membro">
+                <img src="isa.jpeg" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Isadora Rosa Alves</h3>
+                    <p class="cargo">Graduanda em Gestão Pública (UFRJ)<br> Desde 03/2026</p>
+                    <a href="http://lattes.cnpq.br/9434869714578658">Lattes</a>
+                </div>
+            </div>
+
+            <div class="membro">
+                <img src="juli.jpeg" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Juliana Ramos</h3>
+                    <p class="cargo">Graduanda em Psicologia (UFRJ)<br> Desde 03/2026</p>
+                    <a href="">Lattes</a>
+                </div>
+            </div>
+
+            <div class="membro">
+                <img src="myle.gif" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Mylene Vicente Moreira</h3>
+                    <p class="cargo">Graduanda em Gestão Pública (UFRJ)<br> Desde 03/2025</p>
+                    <a href="http://lattes.cnpq.br/1551800607711226">Lattes</a>
+                </div>
+            </div>
+
+            <div class="membro">
+                <img src="download.jpg" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Renata Bateira</h3>
+                    <p class="cargo">Pós-graduanda no PPGTDS/NIDES<br> Desde 03/2025</p>
+                    <a href="">Lattes</a>
+                </div>
+            </div>
+
+            <div class="membro">
+                <img src="rhai.jpeg" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Rhaissa Barbara Dantas</h3>
+                    <p class="cargo">Graduanda em Psicologia(UFRJ)<br> Desde 06/2024</p>
+                    <a href="http://lattes.cnpq.br/4701600415591935">Lattes</a>
+                </div>
+            </div>
+
+            <div class="membro">
+                <img src="suelen.jpeg" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Suelen Pereira</h3>
+                    <p class="cargo">Pós-graduanda no PPGTDS/NIDES<br> Desde 03/2025</p>
+                     <a href="">Lattes</a>
+                </div>
+            </div>
+
+            <div class="membro">
+                <img src="vito.jpeg" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Vitória Santos</h3>
+                    <p class="cargo">Graduanda em Psicologia(UFRJ)<br> Desde 03/2025</p>
+                    <a href="http://lattes.cnpq.br/8931064172651047">Lattes</a>
+                </div>
+            </div>
+           
+        </div><br>
+        
+        <h3><a href="membros.html" class="ex-membros">Ex-membros</a></h3>
+
+
+        <h2>Professores parceiros e apoiadores</h2> <br>
+        <div class="membro">
+                <img src="Carlos.gif" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Carlos Alexandre Rodrigues Pereira</h3>
+                    <p class="cargo">Professor do NIDES</p>
+                    <a href=" http://lattes.cnpq.br/0588193852653586">Lattes</a>
+                </div>
+            </div>
+
+            <div class="membro">
+                <img src="diana.png" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Diana Helene Ramos</h3>
+                    <p class="cargo">Professora da UFBA</p>
+                    <a href="http://lattes.cnpq.br/4396492936910065 ">Lattes</a>
+                </div>
+            </div>
+
+            <div class="membro">
+                <img src="Bruna.gif" class="membro-foto">
+                <div class="membro-info">
+                    <h3>Bruna Mendes de Vasconcellos</h3>
+                    <p class="cargo">Professora da UFABC</p>
+                    <a href=" http://lattes.cnpq.br/1211963856354837">Lattes</a>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- PARCEIROS -->
+    <section id="parceiros" class="parceiros">
+        <h2>Parceiros</h2>
+        <p><strong>Centro de Integração da Serra da Misericórdia (CEM)</strong></p>
+        <img src="CEM.jpg" class="membro-foto"><br>
+        <a href="https://www.instagram.com/cem_serra_misericordia?stkn=MXE5YnQ5a3V0bzV6ag=="target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i>Instagram</a>
+    </section>
+
+    <!-- RODAPÉ & CONTATOS -->
+    <footer id="contatos">
+        <p class="rodape">Projeto TTC - NIDES/UFRJ</p>
+        <div class="social">
+            <a href="https://www.instagram.com/ttc.ufrj" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="mailto:proj.ttc@gmail.com" aria-label="E-mail"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://ttc.cestaagroecologica.com.br/" target="_blank" aria-label="Website"><i class="fa-solid fa-globe"></i></a>
+        </div>
+    </footer>
+
+    <!-- JS para funcionalidade do menu em telas móveis -->
+   <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
